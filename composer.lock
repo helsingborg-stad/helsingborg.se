@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bbde8a6440aaef525f5a0a44d268174",
+    "content-hash": "a75035f3b51ccced8ccbc39428ec0b3c",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -881,22 +881,18 @@
             "time": "2020-04-30T07:57:58+00:00"
         },
         {
-            "name": "helsingborg-stad/algolia-multisite-enabler",
-            "version": "1.1.0",
+            "name": "helsingborg-stad/algolia-index-modularity-addon",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/helsingborg-stad/algolia-multisite-enabler.git",
-                "reference": "7bba77b9fd8941eb981a8eaf574681f20459fc1b"
+                "url": "https://github.com/helsingborg-stad/algolia-index-modularity-addon.git",
+                "reference": "a55e8cdaa8a6db92d636b5291c6c5cf1fbbd159c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-multisite-enabler/zipball/7bba77b9fd8941eb981a8eaf574681f20459fc1b",
-                "reference": "7bba77b9fd8941eb981a8eaf574681f20459fc1b",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-modularity-addon/zipball/a55e8cdaa8a6db92d636b5291c6c5cf1fbbd159c",
+                "reference": "a55e8cdaa8a6db92d636b5291c6c5cf1fbbd159c",
                 "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=7.0"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -909,9 +905,8 @@
                     "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
-            "description": "Plugin to enable Algolia plugin to mix-content from multiple WordPress sites in one index.",
-            "homepage": "https://github.com/helsingborg-stad/algolia-multisite-enabler",
-            "time": "2018-04-27T09:43:27+00:00"
+            "description": "https://github.com/helsingborg-stad/algolia-index-modularity-addon",
+            "time": "2020-04-30T07:57:42+00:00"
         },
         {
             "name": "helsingborg-stad/algoliasearch-wordpress",
