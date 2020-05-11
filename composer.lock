@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5436138c2be48cabffd1cabe89abc681",
+    "content-hash": "1bbde8a6440aaef525f5a0a44d268174",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1651,16 +1651,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.33.0",
+            "version": "1.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "d8c0cf79e430edafdd1da12fe3510e39ad6a1278"
+                "reference": "a4088ee0c57ee384a37a370c2fb5309c7e20828d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d8c0cf79e430edafdd1da12fe3510e39ad6a1278",
-                "reference": "d8c0cf79e430edafdd1da12fe3510e39ad6a1278",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a4088ee0c57ee384a37a370c2fb5309c7e20828d",
+                "reference": "a4088ee0c57ee384a37a370c2fb5309c7e20828d",
                 "shasum": ""
             },
             "require": {
@@ -1695,7 +1695,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2020-05-07T13:21:56+00:00"
+            "time": "2020-04-14T06:39:11+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -3381,17 +3381,6 @@
                 "punycode"
             ],
             "time": "2016-11-16T10:37:54+00:00"
-        },
-        {
-            "name": "webdevstudios/wp-search-with-algolia",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WebDevStudios/wp-search-with-algolia.git",
-                "reference": "master"
-            },
-            "type": "library",
-            "time": "2020-03-28T00:49:34+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
