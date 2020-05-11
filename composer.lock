@@ -4,8 +4,78 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79e34bd6f3f5dc724776f9126380d72f",
+    "content-hash": "1bbde8a6440aaef525f5a0a44d268174",
     "packages": [
+        {
+            "name": "algolia/algoliasearch-client-php",
+            "version": "2.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/algolia/algoliasearch-client-php.git",
+                "reference": "dd7eb942ff15c45179043b4cce51e53b4cf10112"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/dd7eb942ff15c45179043b4cce51e53b4cf10112",
+                "reference": "dd7eb942ff15c45179043b4cce51e53b4cf10112",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^5.3 || ^7.0",
+                "psr/http-message": "^1.0",
+                "psr/log": "^1.0",
+                "psr/simple-cache": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "fzaninotto/faker": "^1.8",
+                "phpunit/phpunit": "^4.8",
+                "symfony/yaml": "^2.0 || ^4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "If you prefer to use Guzzle HTTP client instead of the Http Client implementation provided by the package"
+            },
+            "bin": [
+                "bin/algolia-doctor"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.0": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Algolia\\AlgoliaSearch\\": "src/"
+                },
+                "files": [
+                    "src/Http/Psr7/functions.php",
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Algolia Team",
+                    "email": "contact@algolia.com"
+                }
+            ],
+            "description": "Algolia Search API Client for PHP",
+            "keywords": [
+                "algolia",
+                "api",
+                "client",
+                "php",
+                "search"
+            ],
+            "time": "2020-04-16T08:45:30+00:00"
+        },
         {
             "name": "aristath/kirki",
             "version": "v3.1.2",
@@ -739,6 +809,76 @@
             ],
             "description": "Simple plugin for verification of existing WordPress users with api.",
             "time": "2020-02-18T14:05:08+00:00"
+        },
+        {
+            "name": "helsingborg-stad/algolia-index",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/algolia-index.git",
+                "reference": "d181fe3d19341a67d66b24b03599b65f97218260"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/d181fe3d19341a67d66b24b03599b65f97218260",
+                "reference": "d181fe3d19341a67d66b24b03599b65f97218260",
+                "shasum": ""
+            },
+            "require": {
+                "algolia/algoliasearch-client-php": "^2.6"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "wordpress-install-dir": "wp",
+                "installer-paths": {
+                    "wp-content/plugins/{$name}": [
+                        "type:wordpress-plugin"
+                    ],
+                    "wp-content/themes/{$name}": [
+                        "type:wordpress-theme"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "Index wordpress site content to algolia.",
+            "time": "2020-05-06T09:50:23+00:00"
+        },
+        {
+            "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
+                "reference": "7f7ef298d25f2f36f7bc73457b8689037d1acda9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/7f7ef298d25f2f36f7bc73457b8689037d1acda9",
+                "reference": "7f7ef298d25f2f36f7bc73457b8689037d1acda9",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
+                }
+            ],
+            "description": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon",
+            "time": "2020-04-30T07:57:58+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-multisite-enabler",
@@ -1511,16 +1651,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.33.0",
+            "version": "1.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "d8c0cf79e430edafdd1da12fe3510e39ad6a1278"
+                "reference": "a4088ee0c57ee384a37a370c2fb5309c7e20828d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/d8c0cf79e430edafdd1da12fe3510e39ad6a1278",
-                "reference": "d8c0cf79e430edafdd1da12fe3510e39ad6a1278",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a4088ee0c57ee384a37a370c2fb5309c7e20828d",
+                "reference": "a4088ee0c57ee384a37a370c2fb5309c7e20828d",
                 "shasum": ""
             },
             "require": {
@@ -1555,7 +1695,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2020-05-07T13:21:56+00:00"
+            "time": "2020-04-14T06:39:11+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -1643,16 +1783,16 @@
         },
         {
             "name": "helsingborg-stad/wp-page-for-post-type",
-            "version": "1.2.0",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-page-for-posttype.git",
-                "reference": "42b5d3ccd9111683fb70f078ad6b0502bfdbe828"
+                "reference": "34a41cf61d0cd5bc5e53af716a2eb7021f864734"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-posttype/zipball/42b5d3ccd9111683fb70f078ad6b0502bfdbe828",
-                "reference": "42b5d3ccd9111683fb70f078ad6b0502bfdbe828",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-posttype/zipball/34a41cf61d0cd5bc5e53af716a2eb7021f864734",
+                "reference": "34a41cf61d0cd5bc5e53af716a2eb7021f864734",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1664,13 +1804,9 @@
                 {
                     "name": "Kristoffer Svanmark",
                     "email": "kristoffer.svanmark@knowit.se"
-                },
-                {
-                    "name": "Sebastian Thulin",
-                    "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
-            "time": "2020-05-07T13:22:40+00:00"
+            "time": "2018-03-13T12:44:01+00:00"
         },
         {
             "name": "helsingborg-stad/wp-search-statistics",
@@ -3247,17 +3383,6 @@
             "time": "2016-11-16T10:37:54+00:00"
         },
         {
-            "name": "webdevstudios/wp-search-with-algolia",
-            "version": "master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/WebDevStudios/wp-search-with-algolia.git",
-                "reference": "master"
-            },
-            "type": "library",
-            "time": "2020-03-28T00:49:34+00:00"
-        },
-        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.12",
             "source": {
@@ -3331,39 +3456,21 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "1.4.3",
+            "version": "1.5.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.4.3"
+                "reference": "tags/1.5.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.5.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/stream",
-            "version": "3.4.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.4.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/stream/"
         },
         {
             "name": "wpackagist-plugin/tablepress",
@@ -3402,24 +3509,6 @@
             "homepage": "https://wordpress.org/plugins/user-switching/"
         },
         {
-            "name": "wpackagist-plugin/username-changer",
-            "version": "3.1.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/username-changer/",
-                "reference": "tags/3.1.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/username-changer.3.1.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/username-changer/"
-        },
-        {
             "name": "wpackagist-plugin/varnish-http-purge",
             "version": "4.8.1",
             "source": {
@@ -3454,24 +3543,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-editor-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "1.9.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/1.9.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.1.9.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
