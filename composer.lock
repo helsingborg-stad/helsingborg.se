@@ -256,16 +256,16 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "ab5de36233a1995f9c776c741b803eb8207aebef"
+                "reference": "4111f6853aea6f28b2b1dcfdde83d12dd3d5e6e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/ab5de36233a1995f9c776c741b803eb8207aebef",
-                "reference": "ab5de36233a1995f9c776c741b803eb8207aebef",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/4111f6853aea6f28b2b1dcfdde83d12dd3d5e6e3",
+                "reference": "4111f6853aea6f28b2b1dcfdde83d12dd3d5e6e3",
                 "shasum": ""
             },
             "require": {
@@ -330,7 +330,7 @@
                 "uppercase",
                 "words"
             ],
-            "time": "2020-05-06T11:01:57+00:00"
+            "time": "2020-05-09T15:09:09+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -812,16 +812,16 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.2.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "d181fe3d19341a67d66b24b03599b65f97218260"
+                "reference": "e9f0fe9587f6d40dcab942a785780b69040c2524"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/d181fe3d19341a67d66b24b03599b65f97218260",
-                "reference": "d181fe3d19341a67d66b24b03599b65f97218260",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/e9f0fe9587f6d40dcab942a785780b69040c2524",
+                "reference": "e9f0fe9587f6d40dcab942a785780b69040c2524",
                 "shasum": ""
             },
             "require": {
@@ -850,20 +850,20 @@
                 }
             ],
             "description": "Index wordpress site content to algolia.",
-            "time": "2020-05-06T09:50:23+00:00"
+            "time": "2020-05-12T08:34:40+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon.git",
-                "reference": "7f7ef298d25f2f36f7bc73457b8689037d1acda9"
+                "reference": "a293fbf58ada658a9956a8723ce8b1f5807af1fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/7f7ef298d25f2f36f7bc73457b8689037d1acda9",
-                "reference": "7f7ef298d25f2f36f7bc73457b8689037d1acda9",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index-js-searchpage-addon/zipball/a293fbf58ada658a9956a8723ce8b1f5807af1fd",
+                "reference": "a293fbf58ada658a9956a8723ce8b1f5807af1fd",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -878,7 +878,7 @@
                 }
             ],
             "description": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon",
-            "time": "2020-04-30T07:57:58+00:00"
+            "time": "2020-05-12T08:18:23+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-modularity-addon",
