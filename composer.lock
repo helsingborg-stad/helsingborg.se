@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a75035f3b51ccced8ccbc39428ec0b3c",
+    "content-hash": "2166c6d31a956a36fce1edffb0f77747",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -445,16 +445,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.134",
+            "version": "v0.136",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "4237f6725a48761701101e26e4575ddb053b5d80"
+                "reference": "e6fcc181136d28f6efa4b41f3434c97819b520e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/4237f6725a48761701101e26e4575ddb053b5d80",
-                "reference": "4237f6725a48761701101e26e4575ddb053b5d80",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/e6fcc181136d28f6efa4b41f3434c97819b520e6",
+                "reference": "e6fcc181136d28f6efa4b41f3434c97819b520e6",
                 "shasum": ""
             },
             "require": {
@@ -478,20 +478,20 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-05-10T00:25:08+00:00"
+            "time": "2020-05-16T00:25:19+00:00"
         },
         {
             "name": "google/auth",
-            "version": "v1.8.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "c7b295feb248f138f462a1e6b7d635e4244204c5"
+                "reference": "af4abf63988b8c74f589bee1e69ba310d3e43c6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/c7b295feb248f138f462a1e6b7d635e4244204c5",
-                "reference": "c7b295feb248f138f462a1e6b7d635e4244204c5",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/af4abf63988b8c74f589bee1e69ba310d3e43c6c",
+                "reference": "af4abf63988b8c74f589bee1e69ba310d3e43c6c",
                 "shasum": ""
             },
             "require": {
@@ -503,12 +503,12 @@
                 "psr/http-message": "^1.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.11",
                 "guzzlehttp/promises": "0.1.1|^1.3",
                 "kelvinmo/simplejwt": "^0.2.5",
                 "phpseclib/phpseclib": "^2",
                 "phpunit/phpunit": "^4.8.36|^5.7",
-                "sebastian/comparator": ">=1.2.3"
+                "sebastian/comparator": ">=1.2.3",
+                "squizlabs/php_codesniffer": "^3.5"
             },
             "suggest": {
                 "phpseclib/phpseclib": "May be used in place of OpenSSL for signing strings or for token management. Please require version ^2."
@@ -530,7 +530,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2020-03-26T19:47:36+00:00"
+            "time": "2020-05-18T17:02:59+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -909,41 +909,6 @@
             "time": "2020-04-30T07:57:42+00:00"
         },
         {
-            "name": "helsingborg-stad/algoliasearch-wordpress",
-            "version": "2.11.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/helsingborg-stad/algoliasearch-wordpress.git",
-                "reference": "9d53378668199a138d6ae433ad5b906e6d10139a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algoliasearch-wordpress/zipball/9d53378668199a138d6ae433ad5b906e6d10139a",
-                "reference": "9d53378668199a138d6ae433ad5b906e6d10139a",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "*",
-                "wimg/php-compatibility": "*",
-                "wp-coding-standards/wpcs": "*"
-            },
-            "type": "wordpress-plugin",
-            "extra": {
-                "installer-name": "algolia"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "(MIT or GPL-2.0)"
-            ],
-            "description": "Forked version of algolia Search plugin for Wordpress. Fixes some issues, for more information see feature branches in git-repository.",
-            "homepage": "https://community.algolia.com/wordpress/",
-            "time": "2019-03-04T13:34:45+00:00"
-        },
-        {
             "name": "helsingborg-stad/api-alarm-integration",
             "version": "1.1.3",
             "source": {
@@ -1278,16 +1243,16 @@
         },
         {
             "name": "helsingborg-stad/job-listings",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "c08ee657b1165d64441c9dbd663abda1d3744d95"
+                "reference": "18a92f3b1c67986b48b62ea7875b652e9560d35e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/c08ee657b1165d64441c9dbd663abda1d3744d95",
-                "reference": "c08ee657b1165d64441c9dbd663abda1d3744d95",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/18a92f3b1c67986b48b62ea7875b652e9560d35e",
+                "reference": "18a92f3b1c67986b48b62ea7875b652e9560d35e",
                 "shasum": ""
             },
             "require": {
@@ -1319,7 +1284,7 @@
                 }
             ],
             "description": "Improt available jobs",
-            "time": "2020-01-17T14:29:56+00:00"
+            "time": "2020-05-19T14:26:10+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
@@ -1379,22 +1344,31 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.13.0",
+            "version": "2.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "82149bae49a3cf7035fa83a64036fcfc9875035c"
+                "reference": "14f1c31c63e6abb99da76a186b7124ee39748824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/82149bae49a3cf7035fa83a64036fcfc9875035c",
-                "reference": "82149bae49a3cf7035fa83a64036fcfc9875035c",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/14f1c31c63e6abb99da76a186b7124ee39748824",
+                "reference": "14f1c31c63e6abb99da76a186b7124ee39748824",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "helsingborg-stad/acf-export-manager": ">=1.0.0",
-                "philo/laravel-blade": "^3.1"
+                "illuminate/container": "^5.8.36",
+                "illuminate/contracts": "^5.8.36",
+                "illuminate/events": "^5.8.36",
+                "illuminate/filesystem": "^5.8.36",
+                "illuminate/support": "^5.8.36",
+                "illuminate/view": "^5.8.36",
+                "philo/laravel-blade": "^3.1",
+                "symfony/finder": "^4.4.8",
+                "symfony/polyfill-mbstring": "^1.17.0",
+                "symfony/translation": "^5.0.8"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -1420,7 +1394,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2020-05-14T08:58:38+00:00"
+            "time": "2020-05-14T14:13:34+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1778,16 +1752,16 @@
         },
         {
             "name": "helsingborg-stad/wp-page-for-post-type",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-page-for-posttype.git",
-                "reference": "34a41cf61d0cd5bc5e53af716a2eb7021f864734"
+                "reference": "946d0f3e089a63e6f4095e6f03caa158c29f2eab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-posttype/zipball/34a41cf61d0cd5bc5e53af716a2eb7021f864734",
-                "reference": "34a41cf61d0cd5bc5e53af716a2eb7021f864734",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-posttype/zipball/946d0f3e089a63e6f4095e6f03caa158c29f2eab",
+                "reference": "946d0f3e089a63e6f4095e6f03caa158c29f2eab",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1799,9 +1773,13 @@
                 {
                     "name": "Kristoffer Svanmark",
                     "email": "kristoffer.svanmark@knowit.se"
+                },
+                {
+                    "name": "Sebastian Thulin",
+                    "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
-            "time": "2018-03-13T12:44:01+00:00"
+            "time": "2020-01-29T10:17:39+00:00"
         },
         {
             "name": "helsingborg-stad/wp-search-statistics",
@@ -2338,16 +2316,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.34.0",
+            "version": "2.34.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "52ea68aebbad8a3b27b5d24e4c66ebe1933f8399"
+                "reference": "3e87404329b8072295ea11d548b47a1eefe5a162"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/52ea68aebbad8a3b27b5d24e4c66ebe1933f8399",
-                "reference": "52ea68aebbad8a3b27b5d24e4c66ebe1933f8399",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/3e87404329b8072295ea11d548b47a1eefe5a162",
+                "reference": "3e87404329b8072295ea11d548b47a1eefe5a162",
                 "shasum": ""
             },
             "require": {
@@ -2407,7 +2385,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2020-05-12T19:53:34+00:00"
+            "time": "2020-05-19T22:14:16+00:00"
         },
         {
             "name": "philo/laravel-blade",
