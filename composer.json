@@ -113,7 +113,8 @@
 
     "scripts": {
         "post-install-cmd": [
-            "mkdir -p wp-content/uploads/cache/blade-cache"
+            "mkdir -p wp-content/uploads/cache/blade-cache",
+            "cd wp-content/themes/municipio && composer install"
         ]
     }
 }
