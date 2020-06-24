@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b19711ae810b7ef9771621907d5d4c01",
+    "content-hash": "2166c6d31a956a36fce1edffb0f77747",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -812,16 +812,16 @@
         },
         {
             "name": "helsingborg-stad/algolia-index",
-            "version": "1.8.0",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/algolia-index.git",
-                "reference": "7186ac6308b107f47dc92220b015e47b8539d00b"
+                "reference": "31bef42fd02f3d871b988fe1099f063e761ad555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/7186ac6308b107f47dc92220b015e47b8539d00b",
-                "reference": "7186ac6308b107f47dc92220b015e47b8539d00b",
+                "url": "https://api.github.com/repos/helsingborg-stad/algolia-index/zipball/31bef42fd02f3d871b988fe1099f063e761ad555",
+                "reference": "31bef42fd02f3d871b988fe1099f063e761ad555",
                 "shasum": ""
             },
             "require": {
@@ -850,7 +850,7 @@
                 }
             ],
             "description": "Index wordpress site content to algolia.",
-            "time": "2020-06-24T08:18:45+00:00"
+            "time": "2020-06-23T11:17:42+00:00"
         },
         {
             "name": "helsingborg-stad/algolia-index-js-searchpage-addon",
@@ -1417,16 +1417,16 @@
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "1.9.1",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "c9d948bdac268fc02c54d76c8e4a6fa63739b567"
+                "reference": "3ac3faee37f41afbf5ad532a8e62a2cadc2bcc82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/c9d948bdac268fc02c54d76c8e4a6fa63739b567",
-                "reference": "c9d948bdac268fc02c54d76c8e4a6fa63739b567",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/3ac3faee37f41afbf5ad532a8e62a2cadc2bcc82",
+                "reference": "3ac3faee37f41afbf5ad532a8e62a2cadc2bcc82",
                 "shasum": ""
             },
             "require": {
@@ -1452,7 +1452,7 @@
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "time": "2020-06-23T09:31:05+00:00"
+            "time": "2020-05-28T08:23:26+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -1611,16 +1611,16 @@
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.33.4",
+            "version": "1.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "e1105a0592aa1b63507974b273269d9ee30cabe3"
+                "reference": "a4088ee0c57ee384a37a370c2fb5309c7e20828d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/e1105a0592aa1b63507974b273269d9ee30cabe3",
-                "reference": "e1105a0592aa1b63507974b273269d9ee30cabe3",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/a4088ee0c57ee384a37a370c2fb5309c7e20828d",
+                "reference": "a4088ee0c57ee384a37a370c2fb5309c7e20828d",
                 "shasum": ""
             },
             "require": {
@@ -1655,7 +1655,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2020-06-16T13:15:16+00:00"
+            "time": "2020-04-14T06:39:11+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -1743,16 +1743,16 @@
         },
         {
             "name": "helsingborg-stad/wp-page-for-post-type",
-            "version": "1.0.7",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/wp-page-for-posttype.git",
-                "reference": "4d5f0b528cd885a2a19a3602ca4b214e627acecb"
+                "reference": "946d0f3e089a63e6f4095e6f03caa158c29f2eab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-posttype/zipball/4d5f0b528cd885a2a19a3602ca4b214e627acecb",
-                "reference": "4d5f0b528cd885a2a19a3602ca4b214e627acecb",
+                "url": "https://api.github.com/repos/helsingborg-stad/wp-page-for-posttype/zipball/946d0f3e089a63e6f4095e6f03caa158c29f2eab",
+                "reference": "946d0f3e089a63e6f4095e6f03caa158c29f2eab",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1770,7 +1770,7 @@
                     "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
-            "time": "2020-06-24T07:58:55+00:00"
+            "time": "2020-01-29T10:17:39+00:00"
         },
         {
             "name": "helsingborg-stad/wp-search-statistics",
