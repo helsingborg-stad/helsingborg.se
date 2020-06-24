@@ -70,7 +70,7 @@
         "helsingborg-stad/easy-to-read-alternative": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
         "helsingborg-stad/modularity-form-builder": ">=1.6.4",
-        "helsingborg-stad/wp-page-for-post-type": "1.0.6",
+        "helsingborg-stad/wp-page-for-post-type": "1.0.7",
         "helsingborg-stad/api-alarm-integration": ">=1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
         "helsingborg-stad/modularity-guides": ">=2.0.10",
