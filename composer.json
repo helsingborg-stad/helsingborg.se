@@ -91,7 +91,7 @@
         "helsingborg-stad/job-listings": "^2",
         "helsingborg-stad/redirection-extended": "^1.0",
         "helsingborg-stad/modularity-contact-banner": "^1.0",
-        "helsingborg-stad/algolia-index": "^1.2",
+        "helsingborg-stad/algolia-index": "1.8.0",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "^1.0",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0"
     },
