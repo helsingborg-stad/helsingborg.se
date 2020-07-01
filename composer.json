@@ -69,7 +69,7 @@
         "helsingborg-stad/active-directory-api-wp-integration": ">=2.0.0",
         "helsingborg-stad/easy-to-read-alternative": ">=1.0.0",
         "helsingborg-stad/multisite-role-propagation": ">=1.0.0",
-        "helsingborg-stad/modularity-form-builder": "1.9.1",
+        "helsingborg-stad/modularity-form-builder": "1.9.2",
         "helsingborg-stad/wp-page-for-post-type": "1.0.7",
         "helsingborg-stad/api-alarm-integration": ">=1.0.0",
         "helsingborg-stad/google-analythics": ">=1.0.0",
