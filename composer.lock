@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5dfa8930a4131e6e4954ba768297c8c6",
+    "content-hash": "2d99e1b9e254a55d35e5ea7820ac8f04",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -3497,6 +3497,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/cookies-and-content-security-policy",
+            "version": "1.44",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookies-and-content-security-policy/",
+                "reference": "tags/1.44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookies-and-content-security-policy.1.44.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookies-and-content-security-policy/"
         },
         {
             "name": "wpackagist-plugin/mce-table-buttons",
