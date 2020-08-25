@@ -95,7 +95,8 @@
         "helsingborg-stad/algolia-index-js-searchpage-addon": "^1.0",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
         "helsingborg-stad/skyfish-integration": "^0.8.8",
-        "wpackagist-plugin/cookies-and-content-security-policy": "^1.44"
+        "wpackagist-plugin/cookies-and-content-security-policy": "^1.44",
+        "guzzlehttp/guzzle": "6.5.5"
     },
 
     "extra": {
