@@ -12,7 +12,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with: "feature/auto-deploy"
+      with: 
+        ref: feature/auto-deploy
 
     - name: Install composer dependencies
       run: composer update --prefer-dist --no-progress --no-suggest
@@ -27,7 +28,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: "feature/auto-deploy"
+        branch: feature/auto-deploy
 
     - name: Inject access token in .npmrc
       run: | 
