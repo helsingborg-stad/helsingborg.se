@@ -44,7 +44,7 @@ jobs:
     - name: rsync deployment to www-data user.
       uses: burnett01/rsync-deployments@4.1
       with:
-        switches: -avzrog --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro
+        switches: -avzrogO --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro
         path: .
         remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
         remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
