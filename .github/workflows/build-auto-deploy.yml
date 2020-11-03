@@ -1,0 +1,72 @@
+name: Auto deploy
+
+on:
+  push:
+    branches: [ feature/auto-deploy ]
+    # paths-ignore:
+    # - '.github/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with: feature/auto-deploy
+
+    - name: Install composer dependencies
+      run: composer update --prefer-dist --no-progress --no-suggest
+
+    - name: Commit lock file
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Updated lock file" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: feature/auto-deploy
+
+    - name: Inject access token in .npmrc
+      run: | 
+        echo "registry=https://npm.pkg.github.com/helsingborg-stad" >> ~/.npmrc
+        echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
+
+    - name: Execute buildscripts in themes and plugins folders
+      run: php ./build.php --cleanup
+
+    - name: Cleanup .npmrc
+      run: rm ~/.npmrc
+
+    - name: rsync deployment to www-data user.
+      uses: burnett01/rsync-deployments@4.1
+      with:
+        switches: -avzrog --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro
+        path: .
+        remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
+        remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
+        remote_user: ${{ secrets.DEPLOY_REMOTE_COMPOSER_TEST_USER }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
+
+    - name: Set file permissions.
+      uses: appleboy/ssh-action@master
+      with:
+        script: find ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }} -path ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/wp-content/uploads -prune -o ! -type l -exec chmod g+rw {} +
+        host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
+        username: ${{ secrets.DEPLOY_REMOTE_COMPOSER_TEST_USER }}
+        key: ${{ secrets.DEPLOY_KEY }}
+
+    - name: Clear varnish and redis object cache.
+      uses: appleboy/ssh-action@master
+      with:
+        script: |
+          cd ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
+          wp varnish purge --allow-root
+          wp cache flush --allow-root
+        host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
+        username: ${{ secrets.DEPLOY_REMOTE_COMPOSER_TEST_USER }}
+        key: ${{ secrets.DEPLOY_KEY }}
+    - name: Cleanup temp blade cache
+      run: rm -rf /tmp/blade-engine-cache
