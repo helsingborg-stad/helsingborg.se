@@ -44,20 +44,20 @@ jobs:
     - name: rsync deployment to www-data user.
       uses: burnett01/rsync-deployments@4.1
       with:
-        switches: -avzrog --rsync-path="sudo rsync" --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro
+        switches: -avzrog --rsync-path="sudo rsync" --delete --backup --backup-dir=${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/$GITHUB_SHA --chown=www-data:www-data --chmod=g+rw --exclude config --exclude wp-content/uploads --exclude wp-content/plugins/advanced-custom-fields-pro --exclude wp-content/plugins/gravityforms --exclude wp-content/plugins/wp-schema-pro
         path: .
         remote_path: ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
         remote_host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
         remote_user: ${{ secrets.DEPLOY_REMOTE_COMPOSER_TEST_USER }}
         remote_key: ${{ secrets.DEPLOY_KEY }}
 
-    - name: Set file permissions.
-      uses: appleboy/ssh-action@master
-      with:
-        script: sudo -s && find ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }} -path ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/wp-content/uploads -prune -o ! -type l -exec chmod g+rw {} +
-        host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
-        username: ${{ secrets.DEPLOY_REMOTE_COMPOSER_TEST_USER }}
-        key: ${{ secrets.DEPLOY_KEY }}
+    # - name: Set file permissions.
+    #   uses: appleboy/ssh-action@master
+    #   with:
+    #     script: find ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }} -path ${{ secrets.DEPLOY_REMOTE_PATH_BETA_COMPOSER_TEST_HELSINGBORG_SE }}/wp-content/uploads -prune -o ! -type l -exec chmod g+rw {} +
+    #     host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_COMPOSER_TEST_HELSINGBORG_SE }}
+    #     username: ${{ secrets.DEPLOY_REMOTE_COMPOSER_TEST_USER }}
+    #     key: ${{ secrets.DEPLOY_KEY }}
 
     - name: Clear varnish and redis object cache.
       uses: appleboy/ssh-action@master
