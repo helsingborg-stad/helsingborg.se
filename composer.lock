@@ -1244,16 +1244,16 @@
         },
         {
             "name": "helsingborg-stad/job-listings",
-            "version": "2.5.2",
+            "version": "2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/job-listings.git",
-                "reference": "c72b7f6c2455fa3644cfebdcb7ce67324c9f26d3"
+                "reference": "60ef983b44b7a96fd4805b28d9a1df705bf542a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/c72b7f6c2455fa3644cfebdcb7ce67324c9f26d3",
-                "reference": "c72b7f6c2455fa3644cfebdcb7ce67324c9f26d3",
+                "url": "https://api.github.com/repos/helsingborg-stad/job-listings/zipball/60ef983b44b7a96fd4805b28d9a1df705bf542a9",
+                "reference": "60ef983b44b7a96fd4805b28d9a1df705bf542a9",
                 "shasum": ""
             },
             "require": {
@@ -1285,7 +1285,7 @@
                 }
             ],
             "description": "Improt available jobs",
-            "time": "2020-11-19T13:27:26+00:00"
+            "time": "2020-11-23T13:12:17+00:00"
         },
         {
             "name": "helsingborg-stad/lix-calculator",
