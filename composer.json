@@ -84,7 +84,7 @@
         "wpackagist-plugin/redis-cache": "1.5.7",
         "wpackagist-plugin/tablepress": "1.9.2",
         "wpackagist-plugin/wp-editor-widget": "0.6.0",
-        "helsingborg-stad/Customer-feedback": ">=2.2.18",
+        "helsingborg-stad/customer-feedback": ">=2.2.18",
         "helsingborg-stad/media-usage": "^1.0",
         "helsingborg-stad/modularity-sections": "^1.3",
         "wpackagist-plugin/redirection": "^4.3.1",
