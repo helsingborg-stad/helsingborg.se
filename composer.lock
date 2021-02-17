@@ -74,10 +74,6 @@
                 "php",
                 "search"
             ],
-            "support": {
-                "issues": "https://github.com/algolia/algoliasearch-client-php/issues",
-                "source": "https://github.com/algolia/algoliasearch-client-php/tree/2.7.3"
-            },
             "time": "2020-12-22T11:27:03+00:00"
         },
         {
@@ -136,10 +132,6 @@
                 "customizer",
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/aristath/kirki/issues",
-                "source": "https://github.com/aristath/kirki/tree/develop"
-            },
             "time": "2018-09-14T19:07:16+00:00"
         },
         {
@@ -187,10 +179,6 @@
                 "laravel",
                 "templates"
             ],
-            "support": {
-                "issues": "https://github.com/benjamincrozat/bade/issues",
-                "source": "https://github.com/benjamincrozat/blade/tree/2.0.1"
-            },
             "time": "2020-02-06T09:55:11+00:00"
         },
         {
@@ -233,10 +221,6 @@
                 "plugin",
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/bueltge/must-use-loader/issues",
-                "source": "https://github.com/bueltge/must-use-loader/tree/master"
-            },
             "time": "2018-06-18T18:23:18+00:00"
         },
         {
@@ -367,24 +351,6 @@
                 "zend",
                 "zikula"
             ],
-            "support": {
-                "issues": "https://github.com/composer/installers/issues",
-                "source": "https://github.com/composer/installers/tree/v1.10.0"
-            },
-            "funding": [
-                {
-                    "url": "https://packagist.com",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/composer",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-01-14T11:07:16+00:00"
         },
         {
@@ -463,38 +429,20 @@
                 "uppercase",
                 "words"
             ],
-            "support": {
-                "issues": "https://github.com/doctrine/inflector/issues",
-                "source": "https://github.com/doctrine/inflector/tree/1.4.x"
-            },
-            "funding": [
-                {
-                    "url": "https://www.doctrine-project.org/sponsorship.html",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://www.patreon.com/phpdoctrine",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-29T07:19:59+00:00"
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v5.2.0",
+            "version": "v5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
+                "reference": "f42c9110abe98dd6cfe9053c49bc86acc70b2d23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
-                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f42c9110abe98dd6cfe9053c49bc86acc70b2d23",
+                "reference": "f42c9110abe98dd6cfe9053c49bc86acc70b2d23",
                 "shasum": ""
             },
             "require": {
@@ -531,11 +479,7 @@
                 "jwt",
                 "php"
             ],
-            "support": {
-                "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/master"
-            },
-            "time": "2020-03-25T18:49:23+00:00"
+            "time": "2021-02-12T00:02:00+00:00"
         },
         {
             "name": "google/apiclient",
@@ -597,24 +541,20 @@
             "keywords": [
                 "google"
             ],
-            "support": {
-                "issues": "https://github.com/googleapis/google-api-php-client/issues",
-                "source": "https://github.com/googleapis/google-api-php-client/tree/v2.7.2"
-            },
             "time": "2020-09-18T20:02:04+00:00"
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.159.0",
+            "version": "v0.160.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "d5334e9853afe16e7d8215006a475061d8023216"
+                "reference": "b8a448056ced89d1bc2d68ca10c22e7b2ed06512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/d5334e9853afe16e7d8215006a475061d8023216",
-                "reference": "d5334e9853afe16e7d8215006a475061d8023216",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/b8a448056ced89d1bc2d68ca10c22e7b2ed06512",
+                "reference": "b8a448056ced89d1bc2d68ca10c22e7b2ed06512",
                 "shasum": ""
             },
             "require": {
@@ -638,11 +578,7 @@
             "keywords": [
                 "google"
             ],
-            "support": {
-                "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.159.0"
-            },
-            "time": "2021-02-05T12:20:02+00:00"
+            "time": "2021-02-13T12:20:02+00:00"
         },
         {
             "name": "google/auth",
@@ -694,11 +630,6 @@
                 "google",
                 "oauth2"
             ],
-            "support": {
-                "docs": "https://googleapis.github.io/google-auth-library-php/master/",
-                "issues": "https://github.com/googleapis/google-auth-library-php/issues",
-                "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.15.0"
-            },
             "time": "2021-02-05T20:50:04+00:00"
         },
         {
@@ -780,10 +711,6 @@
                 "rest",
                 "web service"
             ],
-            "support": {
-                "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.0"
-            },
             "time": "2020-06-27T10:33:25+00:00"
         },
         {
@@ -835,10 +762,6 @@
             "keywords": [
                 "promise"
             ],
-            "support": {
-                "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.4.0"
-            },
             "time": "2020-09-30T07:37:28+00:00"
         },
         {
@@ -910,10 +833,6 @@
                 "uri",
                 "url"
             ],
-            "support": {
-                "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.7.0"
-            },
             "time": "2020-09-30T07:37:11+00:00"
         },
         {
@@ -947,10 +866,6 @@
                 }
             ],
             "description": "ACF Export Manager is a extension that let's you automatically export specified your ACF fields on save.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/acf-export-manager/issues",
-                "source": "https://github.com/helsingborg-stad/acf-export-manager/tree/master"
-            },
             "time": "2018-05-29T07:52:24+00:00"
         },
         {
@@ -979,10 +894,6 @@
                 }
             ],
             "description": "Imrpoves the ACF repeater-field UX by adding collapsing top-level functionality",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/ACF-UX-collapse/issues",
-                "source": "https://github.com/helsingborg-stad/ACF-UX-collapse/tree/1.0.4"
-            },
             "time": "2016-10-11T12:00:20+00:00"
         },
         {
@@ -1011,10 +922,6 @@
                 }
             ],
             "description": "Simple plugin for verification of existing WordPress users with api.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/issues",
-                "source": "https://github.com/helsingborg-stad/active-directory-api-wp-integration/tree/2.4.8"
-            },
             "time": "2020-10-20T21:23:26+00:00"
         },
         {
@@ -1057,10 +964,6 @@
                 }
             ],
             "description": "Index wordpress site content to algolia.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/algolia-index/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index/tree/1.8.1"
-            },
             "time": "2020-06-25T09:47:27+00:00"
         },
         {
@@ -1089,10 +992,6 @@
                 }
             ],
             "description": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index-js-searchpage-addon/tree/3.0/develop"
-            },
             "time": "2021-01-28T09:43:00+00:00"
         },
         {
@@ -1121,10 +1020,6 @@
                 }
             ],
             "description": "https://github.com/helsingborg-stad/algolia-index-modularity-addon",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/algolia-index-modularity-addon/issues",
-                "source": "https://github.com/helsingborg-stad/algolia-index-modularity-addon/tree/1.0.1"
-            },
             "time": "2020-04-30T07:57:42+00:00"
         },
         {
@@ -1155,10 +1050,6 @@
                     "email": "kristoffer.svanmark@knowit.se"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/api-alarm-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-alarm-integration/tree/3.0/develop"
-            },
             "time": "2021-01-27T12:46:37+00:00"
         },
         {
@@ -1167,12 +1058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "279457c90928e8b05d084e0585ee167b37ec73e4"
+                "reference": "24c854b02c3192c7add730cd8a7868d75ebe29e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/279457c90928e8b05d084e0585ee167b37ec73e4",
-                "reference": "279457c90928e8b05d084e0585ee167b37ec73e4",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/24c854b02c3192c7add730cd8a7868d75ebe29e0",
+                "reference": "24c854b02c3192c7add730cd8a7868d75ebe29e0",
                 "shasum": ""
             },
             "require": {
@@ -1192,11 +1083,7 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/api-event-manager-integration/issues",
-                "source": "https://github.com/helsingborg-stad/api-event-manager-integration/tree/3.0/develop"
-            },
-            "time": "2021-01-27T13:34:47+00:00"
+            "time": "2021-02-11T13:16:34+00:00"
         },
         {
             "name": "helsingborg-stad/attachment-revisions",
@@ -1224,10 +1111,6 @@
                 }
             ],
             "description": "Enables attachment revisions and media file swapping",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/attachment-revisions/issues",
-                "source": "https://github.com/helsingborg-stad/attachment-revisions/tree/1.2.5"
-            },
             "time": "2020-09-02T14:46:18+00:00"
         },
         {
@@ -1256,10 +1139,6 @@
                 }
             ],
             "description": "Improves the UI and UX of the WordPress admin post form.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/better-post-UI/issues",
-                "source": "https://github.com/helsingborg-stad/better-post-UI/tree/1.2.12"
-            },
             "time": "2018-09-13T08:45:52+00:00"
         },
         {
@@ -1268,15 +1147,14 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/blade-component-library.git",
-                "reference": "879c7edede4463bb49ebcde2703e9d22fbca632b"
+                "reference": "6bf3ad9ab832ed85150432464c3bb47cf581108b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/blade-component-library/zipball/879c7edede4463bb49ebcde2703e9d22fbca632b",
-                "reference": "879c7edede4463bb49ebcde2703e9d22fbca632b",
+                "url": "https://api.github.com/repos/helsingborg-stad/blade-component-library/zipball/6bf3ad9ab832ed85150432464c3bb47cf581108b",
+                "reference": "6bf3ad9ab832ed85150432464c3bb47cf581108b",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1294,11 +1172,7 @@
                 }
             ],
             "description": "A component library based upon blade engine.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/blade-component-library/issues",
-                "source": "https://github.com/helsingborg-stad/blade-component-library/tree/master"
-            },
-            "time": "2021-01-27T15:50:23+00:00"
+            "time": "2021-02-11T08:46:25+00:00"
         },
         {
             "name": "helsingborg-stad/blade-engine-wrapper",
@@ -1306,12 +1180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/blade-engine-wrapper.git",
-                "reference": "db5a99d2c545056e9c439093835af1528b5d2e9e"
+                "reference": "d7e651f5f0a9535a976cbe771e77d7d0b75b62d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/db5a99d2c545056e9c439093835af1528b5d2e9e",
-                "reference": "db5a99d2c545056e9c439093835af1528b5d2e9e",
+                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/d7e651f5f0a9535a976cbe771e77d7d0b75b62d5",
+                "reference": "d7e651f5f0a9535a976cbe771e77d7d0b75b62d5",
                 "shasum": ""
             },
             "require": {
@@ -1331,7 +1205,6 @@
                 "symfony/finder": "4.4.8",
                 "symfony/polyfill-mbstring": "1.17.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1353,11 +1226,7 @@
                 }
             ],
             "description": "An instantiated version of the global-blade-engine.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/blade-engine-wrapper/issues",
-                "source": "https://github.com/helsingborg-stad/blade-engine-wrapper/tree/master"
-            },
-            "time": "2020-06-09T10:32:15+00:00"
+            "time": "2021-02-11T15:22:54+00:00"
         },
         {
             "name": "helsingborg-stad/broken-link-detector",
@@ -1388,10 +1257,6 @@
                 }
             ],
             "description": "Detects and fixes (if possible) broken links in post_content",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/broken-link-detector/issues",
-                "source": "https://github.com/helsingborg-stad/broken-link-detector/tree/master"
-            },
             "time": "2019-02-26T11:51:38+00:00"
         },
         {
@@ -1400,18 +1265,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/component-library.git",
-                "reference": "60b5316df2b50e40b454723fed96a64bce3bda41"
+                "reference": "bd100ab1868e69c744bd9b673656b922e34c6fed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/60b5316df2b50e40b454723fed96a64bce3bda41",
-                "reference": "60b5316df2b50e40b454723fed96a64bce3bda41",
+                "url": "https://api.github.com/repos/helsingborg-stad/component-library/zipball/bd100ab1868e69c744bd9b673656b922e34c6fed",
+                "reference": "bd100ab1868e69c744bd9b673656b922e34c6fed",
                 "shasum": ""
             },
             "require": {
                 "helsingborg-stad/blade-engine-wrapper": "dev-master"
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "notification-url": "https://packagist.org/downloads/",
             "authors": [
@@ -1420,11 +1284,7 @@
                     "email": "eric.rosenborg@hiq.se"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/component-library/issues",
-                "source": "https://github.com/helsingborg-stad/component-library/tree/master"
-            },
-            "time": "2021-02-08T09:40:06+00:00"
+            "time": "2021-02-11T14:57:23+00:00"
         },
         {
             "name": "helsingborg-stad/content-scheduler",
@@ -1455,10 +1315,6 @@
                 }
             ],
             "description": "Nicer major publising actions interface and feature for post unpublising scheduleing",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/content-scheduler/issues",
-                "source": "https://github.com/helsingborg-stad/content-scheduler/tree/1.1.2"
-            },
             "time": "2018-04-12T10:24:59+00:00"
         },
         {
@@ -1487,10 +1343,6 @@
                 }
             ],
             "description": "Create shortlinks for any type of content",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/custom-short-links/issues",
-                "source": "https://github.com/helsingborg-stad/custom-short-links/tree/master"
-            },
             "time": "2018-09-03T14:04:39+00:00"
         },
         {
@@ -1522,10 +1374,6 @@
                 }
             ],
             "description": "This WordPress plugin adds a feedback form to the end of every page (or any other activated post type).",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/Customer-feedback/issues",
-                "source": "https://github.com/helsingborg-stad/Customer-feedback/tree/3.0/develop"
-            },
             "time": "2021-01-27T13:08:14+00:00"
         },
         {
@@ -1557,10 +1405,6 @@
                 }
             ],
             "description": "Adds easy to read alternative content version.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/easy-to-read-alternative/issues",
-                "source": "https://github.com/helsingborg-stad/easy-to-read-alternative/tree/3.0/develop"
-            },
             "time": "2021-01-20T13:38:19+00:00"
         },
         {
@@ -1592,10 +1436,6 @@
                 }
             ],
             "description": "Force users to use ssl",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/force-ssl/issues",
-                "source": "https://github.com/helsingborg-stad/force-ssl/tree/1.0.19"
-            },
             "time": "2017-05-26T11:57:48+00:00"
         },
         {
@@ -1646,10 +1486,6 @@
                 }
             ],
             "description": "A static instance of blade engine to be used cross-package.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/global-blade-engine/issues",
-                "source": "https://github.com/helsingborg-stad/global-blade-engine/tree/1.2.5"
-            },
             "time": "2020-05-18T10:49:41+00:00"
         },
         {
@@ -1681,10 +1517,6 @@
                 }
             ],
             "description": "Plugin to integrate Google Analytics and display simple statistics.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/google-analythics/issues",
-                "source": "https://github.com/helsingborg-stad/google-analythics/tree/1.0.7"
-            },
             "time": "2020-04-06T12:45:54+00:00"
         },
         {
@@ -1729,10 +1561,6 @@
                 }
             ],
             "description": "Improt available jobs",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/job-listings/issues",
-                "source": "https://github.com/helsingborg-stad/job-listings/tree/3.0/develop"
-            },
             "time": "2021-01-27T11:45:49+00:00"
         },
         {
@@ -1761,10 +1589,6 @@
                 }
             ],
             "description": "WordPress plugin that calculates the lix value of your post's content.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/lix-calculator/issues",
-                "source": "https://github.com/helsingborg-stad/lix-calculator/tree/master"
-            },
             "time": "2018-04-25T07:02:01+00:00"
         },
         {
@@ -1793,10 +1617,6 @@
                 }
             ],
             "description": "Track the use of attachments across posts, meta and options",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/media-usage/issues",
-                "source": "https://github.com/helsingborg-stad/media-usage/tree/master"
-            },
             "time": "2020-09-01T08:48:55+00:00"
         },
         {
@@ -1805,12 +1625,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "95d24b03da0b46d615291ee4c936be9b6e465f7e"
+                "reference": "9f964d38f3b2a01ca7bf81869a1b0206cf4d141a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/95d24b03da0b46d615291ee4c936be9b6e465f7e",
-                "reference": "95d24b03da0b46d615291ee4c936be9b6e465f7e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/9f964d38f3b2a01ca7bf81869a1b0206cf4d141a",
+                "reference": "9f964d38f3b2a01ca7bf81869a1b0206cf4d141a",
                 "shasum": ""
             },
             "require": {
@@ -1861,11 +1681,7 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/Modularity/issues",
-                "source": "https://github.com/helsingborg-stad/Modularity/tree/3.0/develop"
-            },
-            "time": "2021-02-08T13:59:49+00:00"
+            "time": "2021-02-16T14:08:39+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-contact-banner",
@@ -1893,10 +1709,6 @@
                 }
             ],
             "description": "Contact Banner",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
-            },
             "time": "2021-01-27T12:46:00+00:00"
         },
         {
@@ -1905,12 +1717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "d97400b59f306c160d634efd54ebaef3282b5102"
+                "reference": "02b61947d575b9bebfb043fe5bfe9d9de9526f45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/d97400b59f306c160d634efd54ebaef3282b5102",
-                "reference": "d97400b59f306c160d634efd54ebaef3282b5102",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/02b61947d575b9bebfb043fe5bfe9d9de9526f45",
+                "reference": "02b61947d575b9bebfb043fe5bfe9d9de9526f45",
                 "shasum": ""
             },
             "require": {
@@ -1938,11 +1750,7 @@
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-form-builder/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-form-builder/tree/3.0/develop"
-            },
-            "time": "2021-02-04T13:33:20+00:00"
+            "time": "2021-02-10T08:41:27+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-guides",
@@ -1974,10 +1782,6 @@
                 }
             ],
             "description": "Addon for Modularity for creating guides",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-guides/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-guides/tree/3.0/develop"
-            },
             "time": "2021-01-27T13:24:11+00:00"
         },
         {
@@ -2008,10 +1812,6 @@
                     "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-json-render/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-json-render/tree/3.0/develop"
-            },
             "time": "2021-02-08T09:41:44+00:00"
         },
         {
@@ -2043,10 +1843,6 @@
                 }
             ],
             "description": "A module to display a timeline.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-timeline/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-timeline/tree/1.1.5"
-            },
             "time": "2019-08-15T11:44:38+00:00"
         },
         {
@@ -2075,10 +1871,6 @@
                 }
             ],
             "description": "Plugin to quickly set a role for a multisite user on multiple blogs in a network",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/multisite-role-propagation/issues",
-                "source": "https://github.com/helsingborg-stad/multisite-role-propagation/tree/1.0.3"
-            },
             "time": "2017-05-12T11:30:57+00:00"
         },
         {
@@ -2087,12 +1879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "68cc074e14c8f23c9f49e6fe85d56898bccae5ab"
+                "reference": "531d1a0f21e8ac7e3906bd7da8af092dd95655c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/68cc074e14c8f23c9f49e6fe85d56898bccae5ab",
-                "reference": "68cc074e14c8f23c9f49e6fe85d56898bccae5ab",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/531d1a0f21e8ac7e3906bd7da8af092dd95655c7",
+                "reference": "531d1a0f21e8ac7e3906bd7da8af092dd95655c7",
                 "shasum": ""
             },
             "require": {
@@ -2141,11 +1933,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/Municipio/issues",
-                "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
-            },
-            "time": "2021-02-04T12:24:36+00:00"
+            "time": "2021-02-11T15:04:09+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-blue",
@@ -2161,7 +1949,6 @@
                 "reference": "fe2a77fd7b171aa82a443063f91243b25bf219e0",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "wordpress-theme",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2174,10 +1961,6 @@
                 }
             ],
             "description": "Blue version of the municipio theme",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/municipio-blue/issues",
-                "source": "https://github.com/helsingborg-stad/municipio-blue/tree/master"
-            },
             "time": "2020-12-16T11:39:06+00:00"
         },
         {
@@ -2206,10 +1989,6 @@
                 }
             ],
             "description": "Extends the Wordpress Redirection plugin",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/redirection-extended/issues",
-                "source": "https://github.com/helsingborg-stad/redirection-extended/tree/1.0.0"
-            },
             "time": "2019-12-09T10:04:26+00:00"
         },
         {
@@ -2238,10 +2017,6 @@
                 }
             ],
             "description": "Enables option to add notices to search result of specific keywords",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/Search-notices/issues",
-                "source": "https://github.com/helsingborg-stad/Search-notices/tree/1.1.2"
-            },
             "time": "2017-03-03T08:00:18+00:00"
         },
         {
@@ -2273,10 +2048,6 @@
                 }
             ],
             "description": "Skyfish integration for Wordpress",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/modularity-skyfish-integration/issues",
-                "source": "https://github.com/helsingborg-stad/modularity-skyfish-integration/tree/master"
-            },
             "time": "2020-09-02T14:45:45+00:00"
         },
         {
@@ -2308,10 +2079,6 @@
                     "email": "sebastian.thulin@helsingborg.se"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/wp-page-for-posttype/issues",
-                "source": "https://github.com/helsingborg-stad/wp-page-for-posttype/tree/master"
-            },
             "time": "2020-06-24T07:58:55+00:00"
         },
         {
@@ -2340,10 +2107,6 @@
                 }
             ],
             "description": "Adds search statistics for WordPress",
-            "support": {
-                "issues": "https://github.com/helsingborg-stad/search-statistics/issues",
-                "source": "https://github.com/helsingborg-stad/search-statistics/tree/master"
-            },
             "time": "2017-08-30T12:03:26+00:00"
         },
         {
@@ -2389,10 +2152,6 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2019-08-20T02:00:23+00:00"
         },
         {
@@ -2437,10 +2196,6 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2019-07-30T13:57:21+00:00"
         },
         {
@@ -2486,10 +2241,6 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2019-02-18T18:37:54+00:00"
         },
         {
@@ -2542,10 +2293,6 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2019-08-14T13:38:15+00:00"
         },
         {
@@ -2607,10 +2354,6 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2019-12-12T14:16:47+00:00"
         },
         {
@@ -2660,10 +2403,6 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "https://laravel.com",
-            "support": {
-                "issues": "https://github.com/laravel/framework/issues",
-                "source": "https://github.com/laravel/framework"
-            },
             "time": "2019-06-20T13:13:59+00:00"
         },
         {
@@ -2703,13 +2442,6 @@
                 "cms",
                 "wordpress"
             ],
-            "support": {
-                "forum": "http://wordpress.org/support/",
-                "irc": "irc://irc.freenode.net/wordpress",
-                "issues": "http://core.trac.wordpress.org/",
-                "source": "http://core.trac.wordpress.org/browser",
-                "wiki": "http://codex.wordpress.org/"
-            },
             "time": "2021-02-03T21:27:41+00:00"
         },
         {
@@ -2751,13 +2483,6 @@
                 "cms",
                 "wordpress"
             ],
-            "support": {
-                "forum": "https://wordpress.org/support/",
-                "irc": "irc://irc.freenode.net/wordpress",
-                "issues": "https://core.trac.wordpress.org/",
-                "source": "https://core.trac.wordpress.org/browser",
-                "wiki": "https://codex.wordpress.org/"
-            },
             "time": "2021-02-03T21:27:35+00:00"
         },
         {
@@ -2808,10 +2533,6 @@
             "keywords": [
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/johnpbloch/wordpress-core-installer/issues",
-                "source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
-            },
             "time": "2020-04-16T21:44:57+00:00"
         },
         {
@@ -2894,34 +2615,20 @@
                 "logging",
                 "psr-3"
             ],
-            "support": {
-                "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.2.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/Seldaek",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-12-14T13:15:25+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.45.0",
+            "version": "2.45.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e2ba3174ce869da1713c38340dbb36572dfacd5a"
+                "reference": "528783b188bdb853eb21239b1722831e0f000a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e2ba3174ce869da1713c38340dbb36572dfacd5a",
-                "reference": "e2ba3174ce869da1713c38340dbb36572dfacd5a",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/528783b188bdb853eb21239b1722831e0f000a8d",
+                "reference": "528783b188bdb853eb21239b1722831e0f000a8d",
                 "shasum": ""
             },
             "require": {
@@ -2987,21 +2694,7 @@
                 "datetime",
                 "time"
             ],
-            "support": {
-                "issues": "https://github.com/briannesbitt/Carbon/issues",
-                "source": "https://github.com/briannesbitt/Carbon"
-            },
-            "funding": [
-                {
-                    "url": "https://opencollective.com/Carbon",
-                    "type": "open_collective"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-02-07T21:35:59+00:00"
+            "time": "2021-02-11T18:30:17+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -3042,10 +2735,6 @@
                 "blade",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/PhiloNL/Laravel-Blade/issues",
-                "source": "https://github.com/PhiloNL/Laravel-Blade/tree/master"
-            },
             "time": "2015-12-04T09:42:42+00:00"
         },
         {
@@ -3137,24 +2826,6 @@
                 "x.509",
                 "x509"
             ],
-            "support": {
-                "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.30"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/terrafrost",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/phpseclib",
-                    "type": "patreon"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-12-17T05:42:04+00:00"
         },
         {
@@ -3201,9 +2872,6 @@
                 "psr",
                 "psr-6"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/cache/tree/master"
-            },
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
@@ -3253,10 +2921,6 @@
                 "container-interop",
                 "psr"
             ],
-            "support": {
-                "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/master"
-            },
             "time": "2017-02-14T16:28:37+00:00"
         },
         {
@@ -3306,9 +2970,6 @@
                 "psr",
                 "psr-18"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-client/tree/master"
-            },
             "time": "2020-06-29T06:28:15+00:00"
         },
         {
@@ -3359,9 +3020,6 @@
                 "request",
                 "response"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
-            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -3409,9 +3067,6 @@
                 "psr",
                 "psr-3"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.3"
-            },
             "time": "2020-03-23T09:12:05+00:00"
         },
         {
@@ -3460,9 +3115,6 @@
                 "psr-16",
                 "simple-cache"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/simple-cache/tree/master"
-            },
             "time": "2017-10-23T01:57:42+00:00"
         },
         {
@@ -3503,10 +3155,6 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "support": {
-                "issues": "https://github.com/ralouphie/getallheaders/issues",
-                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
-            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -3547,10 +3195,6 @@
                 }
             ],
             "description": "PHP package for converting file extensions to MIME types and vice versa.",
-            "support": {
-                "issues": "https://github.com/ralouphie/mimey/issues",
-                "source": "https://github.com/ralouphie/mimey/tree/develop"
-            },
             "time": "2019-03-08T08:49:03+00:00"
         },
         {
@@ -3606,11 +3250,6 @@
                 "optimize",
                 "shortpixel"
             ],
-            "support": {
-                "email": "support@shortpixel.com",
-                "issues": "https://github.com/short-pixel-optimizer/shortpixel-php/issues",
-                "source": "https://github.com/short-pixel-optimizer/shortpixel-php/tree/v1.7.0"
-            },
             "time": "2020-12-12T05:59:21+00:00"
         },
         {
@@ -3663,23 +3302,6 @@
             ],
             "description": "Provides tools to ease debugging PHP code",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/debug/tree/v4.4.19"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2021-01-27T09:09:26+00:00"
         },
         {
@@ -3729,23 +3351,6 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/finder/tree/v4.4.8"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-03-27T16:54:36+00:00"
         },
         {
@@ -3805,28 +3410,11 @@
                 "portable",
                 "shim"
             ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.17.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.22.0",
+            "version": "v1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -3887,23 +3475,6 @@
                 "polyfill",
                 "portable",
                 "shim"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.22.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
             ],
             "time": "2021-01-07T16:49:33+00:00"
         },
@@ -3982,23 +3553,6 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.0.8"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
             "time": "2020-04-12T16:45:47+00:00"
         },
         {
@@ -4056,9 +3610,6 @@
                 "interoperability",
                 "standards"
             ],
-            "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v2.0.1"
-            },
             "time": "2019-11-18T17:27:11+00:00"
         },
         {
@@ -4105,10 +3656,6 @@
                 "idna",
                 "punycode"
             ],
-            "support": {
-                "issues": "https://github.com/true/php-punycode/issues",
-                "source": "https://github.com/true/php-punycode/tree/master"
-            },
             "time": "2016-11-16T10:37:54+00:00"
         },
         {
@@ -4149,15 +3696,15 @@
         },
         {
             "name": "wpackagist-plugin/cookies-and-content-security-policy",
-            "version": "1.76",
+            "version": "1.78",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookies-and-content-security-policy/",
-                "reference": "tags/1.76"
+                "reference": "tags/1.78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookies-and-content-security-policy.1.76.zip"
+                "url": "https://downloads.wordpress.org/plugin/cookies-and-content-security-policy.1.78.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4221,15 +3768,15 @@
         },
         {
             "name": "wpackagist-plugin/stream",
-            "version": "3.6.0",
+            "version": "3.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stream/",
-                "reference": "tags/3.6.0"
+                "reference": "tags/3.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stream.3.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/stream.3.6.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -4386,6 +3933,5 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "platform-dev": []
 }
