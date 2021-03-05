@@ -1884,12 +1884,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "1f073553d79067fd1a95253489a0b01b5ec5597e"
+                "reference": "549bf2bbaec8ce4cead9933dbf19912f8bc59d9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/1f073553d79067fd1a95253489a0b01b5ec5597e",
-                "reference": "1f073553d79067fd1a95253489a0b01b5ec5597e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/549bf2bbaec8ce4cead9933dbf19912f8bc59d9f",
+                "reference": "549bf2bbaec8ce4cead9933dbf19912f8bc59d9f",
                 "shasum": ""
             },
             "require": {
@@ -1941,7 +1941,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2021-03-04T15:27:48+00:00"
+            "time": "2021-03-05T10:12:13+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-blue",
