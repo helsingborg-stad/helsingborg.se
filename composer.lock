@@ -1180,12 +1180,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/blade-engine-wrapper.git",
-                "reference": "2d9ae9d012b76f8b030cab5a19e060e52cb27fd6"
+                "reference": "5574eff7d510f493c024cd550dc3b1371f0f12c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/2d9ae9d012b76f8b030cab5a19e060e52cb27fd6",
-                "reference": "2d9ae9d012b76f8b030cab5a19e060e52cb27fd6",
+                "url": "https://api.github.com/repos/helsingborg-stad/blade-engine-wrapper/zipball/5574eff7d510f493c024cd550dc3b1371f0f12c1",
+                "reference": "5574eff7d510f493c024cd550dc3b1371f0f12c1",
                 "shasum": ""
             },
             "require": {
@@ -1226,7 +1226,7 @@
                 }
             ],
             "description": "An instantiated version of the global-blade-engine.",
-            "time": "2021-03-02T20:41:57+00:00"
+            "time": "2021-03-05T11:06:33+00:00"
         },
         {
             "name": "helsingborg-stad/broken-link-detector",
