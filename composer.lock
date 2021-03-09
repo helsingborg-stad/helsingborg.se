@@ -1351,12 +1351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Customer-feedback.git",
-                "reference": "8811486c39ff543fa353649cd3a0ba3eafa8d350"
+                "reference": "7d220c52d608778ae1645903127e4cb5035244fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/8811486c39ff543fa353649cd3a0ba3eafa8d350",
-                "reference": "8811486c39ff543fa353649cd3a0ba3eafa8d350",
+                "url": "https://api.github.com/repos/helsingborg-stad/Customer-feedback/zipball/7d220c52d608778ae1645903127e4cb5035244fc",
+                "reference": "7d220c52d608778ae1645903127e4cb5035244fc",
                 "shasum": ""
             },
             "require": {
@@ -1375,7 +1375,7 @@
                 }
             ],
             "description": "This WordPress plugin adds a feedback form to the end of every page (or any other activated post type).",
-            "time": "2021-02-23T13:14:11+00:00"
+            "time": "2021-03-09T13:11:56+00:00"
         },
         {
             "name": "helsingborg-stad/easy-to-read-alternative",
@@ -1760,12 +1760,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-guides.git",
-                "reference": "bf6fc41c3f20ba4422a48739625635d3981ee20b"
+                "reference": "c261d3c1841deadf6b490c18b312b15deb78b8c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/bf6fc41c3f20ba4422a48739625635d3981ee20b",
-                "reference": "bf6fc41c3f20ba4422a48739625635d3981ee20b",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-guides/zipball/c261d3c1841deadf6b490c18b312b15deb78b8c1",
+                "reference": "c261d3c1841deadf6b490c18b312b15deb78b8c1",
                 "shasum": ""
             },
             "require": {
@@ -1787,7 +1787,7 @@
                 }
             ],
             "description": "Addon for Modularity for creating guides",
-            "time": "2021-02-23T13:14:04+00:00"
+            "time": "2021-03-09T13:20:38+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-json-render",
