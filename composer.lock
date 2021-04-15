@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f7eb49bc8a1cbfee957608f3fde737f",
+    "content-hash": "8740f7cc364f5c4e136ca8891ffeccbd",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -1811,12 +1811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "3ac4a702a279484766a1782d2537977d0d967325"
+                "reference": "bedd31c20f559489e281b336cad2e03128576964"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/3ac4a702a279484766a1782d2537977d0d967325",
-                "reference": "3ac4a702a279484766a1782d2537977d0d967325",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/bedd31c20f559489e281b336cad2e03128576964",
+                "reference": "bedd31c20f559489e281b336cad2e03128576964",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1835,7 +1835,7 @@
                 "issues": "https://github.com/helsingborg-stad/modularity-contact-banner/issues",
                 "source": "https://github.com/helsingborg-stad/modularity-contact-banner/tree/3.0/develop"
             },
-            "time": "2021-03-19T12:38:08+00:00"
+            "time": "2021-04-15T07:38:19+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
@@ -4337,15 +4337,15 @@
         },
         {
             "name": "wpackagist-plugin/redis-cache",
-            "version": "2.0.15",
+            "version": "2.0.18",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/2.0.15"
+                "reference": "tags/2.0.18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.15.zip"
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.18.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
