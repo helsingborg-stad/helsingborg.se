@@ -75,7 +75,6 @@
         "helsingborg-stad/modularity-form-builder": "dev-3.0/develop",
         "helsingborg-stad/wp-page-for-post-type": ">=1.0.0",
         "helsingborg-stad/api-alarm-integration": "dev-3.0/develop",
-        "helsingborg-stad/google-analythics": "1.0.7",
         "helsingborg-stad/modularity-guides": "dev-3.0/develop",
         "helsingborg-stad/modularity-timeline": ">=1.1.4",
         "helsingborg-stad/modularity-json-render": "dev-3.0/develop",
@@ -85,8 +84,7 @@
         "wpackagist-plugin/mce-table-buttons": "^3.0.0",
         "wpackagist-plugin/user-switching" : ">=1.5.1",
         "wpackagist-plugin/autodescription" : ">=2.9.0",
-        "wpackagist-plugin/redis-cache":"2.0.18",
-        "wpackagist-plugin/tablepress": "1.9.2", 
+        "wpackagist-plugin/redis-cache": "2.0.18",
         "wpackagist-plugin/username-changer": "3.1.3",
         "wpackagist-plugin/wp-editor-widget": "0.6.0",
         "helsingborg-stad/customer-feedback": "dev-3.0/develop",
@@ -95,7 +93,7 @@
         "wpackagist-plugin/redirection": "^4.3.1",
         "helsingborg-stad/job-listings": "dev-3.0/develop",
         "helsingborg-stad/redirection-extended": "^1.0",
-        "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
+        "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop#d8a3c8b3999f04742bee6a52c32f8e68a2c4a7fb",
         "helsingborg-stad/algolia-index": "1.8.1",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-3.0/develop",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
@@ -104,7 +102,9 @@
         "wpackagist-plugin/blackbar":"2.2.1",
         "helsingborg-stad/municipio-blue": "dev-master",
         "bueltge/must-use-loader": "^1.3",
-        "helsingborg-stad/component-library": "dev-master"
+        "helsingborg-stad/component-library": "dev-master",
+        "mcguffin/acf-customizer": "0.2.13",
+        "wpackagist-plugin/wp-piwik": "^1.0"
     },
 
     "extra": {
