@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5990ad14d4d8bf76e6aedc7d6eaedfb0",
+    "content-hash": "b58561865d6e5c4da393437b845a5401",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -545,16 +545,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.177.0",
+            "version": "v0.179.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "316cbf9b02c575a140d8cbeca48a3ca0070fcd5a"
+                "reference": "c161f1e3529f2de7ef2dd8352c4e0999608f9440"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/316cbf9b02c575a140d8cbeca48a3ca0070fcd5a",
-                "reference": "316cbf9b02c575a140d8cbeca48a3ca0070fcd5a",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c161f1e3529f2de7ef2dd8352c4e0999608f9440",
+                "reference": "c161f1e3529f2de7ef2dd8352c4e0999608f9440",
                 "shasum": ""
             },
             "require": {
@@ -580,9 +580,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.177.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.179.0"
             },
-            "time": "2021-05-15T11:18:02+00:00"
+            "time": "2021-06-02T18:20:04+00:00"
         },
         {
             "name": "google/auth",
@@ -1778,12 +1778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-contact-banner.git",
-                "reference": "d8a3c8b3999f04742bee6a52c32f8e68a2c4a7fb"
+                "reference": "319ba0618e2a69b7a937b313aa4b66a39235833f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/d8a3c8b3999f04742bee6a52c32f8e68a2c4a7fb",
-                "reference": "d8a3c8b3999f04742bee6a52c32f8e68a2c4a7fb",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-contact-banner/zipball/319ba0618e2a69b7a937b313aa4b66a39235833f",
+                "reference": "319ba0618e2a69b7a937b313aa4b66a39235833f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1996,12 +1996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "236ba9e4213e4bcacdea9734ce3779e558c2960b"
+                "reference": "527cf41cc67905bec3240453cdc28721bd0c979b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/236ba9e4213e4bcacdea9734ce3779e558c2960b",
-                "reference": "236ba9e4213e4bcacdea9734ce3779e558c2960b",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/527cf41cc67905bec3240453cdc28721bd0c979b",
+                "reference": "527cf41cc67905bec3240453cdc28721bd0c979b",
                 "shasum": ""
             },
             "require": {
@@ -2056,7 +2056,7 @@
                 "issues": "https://github.com/helsingborg-stad/Municipio/issues",
                 "source": "https://github.com/helsingborg-stad/Municipio/tree/3.0/develop"
             },
-            "time": "2021-06-01T08:28:28+00:00"
+            "time": "2021-06-03T08:52:16+00:00"
         },
         {
             "name": "helsingborg-stad/municipio-blue",
@@ -4298,15 +4298,15 @@
         },
         {
             "name": "wpackagist-plugin/cookies-and-content-security-policy",
-            "version": "1.86",
+            "version": "1.87",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cookies-and-content-security-policy/",
-                "reference": "tags/1.86"
+                "reference": "tags/1.87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cookies-and-content-security-policy.1.86.zip"
+                "url": "https://downloads.wordpress.org/plugin/cookies-and-content-security-policy.1.87.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
