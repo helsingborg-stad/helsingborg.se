@@ -93,7 +93,7 @@
         "wpackagist-plugin/redirection": "^4.3.1",
         "helsingborg-stad/job-listings": "dev-3.0/develop",
         "helsingborg-stad/redirection-extended": "^1.0",
-        "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop#d8a3c8b3999f04742bee6a52c32f8e68a2c4a7fb",
+        "helsingborg-stad/modularity-contact-banner": "dev-3.0/develop",
         "helsingborg-stad/algolia-index": "1.8.1",
         "helsingborg-stad/algolia-index-js-searchpage-addon": "dev-3.0/develop",
         "helsingborg-stad/algolia-index-modularity-addon": "^1.0",
