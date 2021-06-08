@@ -104,7 +104,8 @@
         "bueltge/must-use-loader": "^1.3",
         "helsingborg-stad/component-library": "dev-master",
         "mcguffin/acf-customizer": "0.2.13",
-        "wpackagist-plugin/wp-piwik": "^1.0"
+        "wpackagist-plugin/wp-piwik": "^1.0",
+        "wpackagist-plugin/nginx-helper": "^2.2"
     },
 
     "extra": {

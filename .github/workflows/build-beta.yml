@@ -79,7 +79,7 @@ jobs:
       with:
         script: |
           cd ${{ secrets.DEPLOY_REMOTE_PATH_BETA_HELSINGBORG_SE }}
-          wp varnish purge --allow-root
+          wp nginx-helper purge-all --allow-root
           wp cache flush --allow-root
           rm -rf /tmp/blade-engine-cache/* || true
         host: ${{ secrets.DEPLOY_REMOTE_HOST_BETA_HELSINGBORG_SE }}

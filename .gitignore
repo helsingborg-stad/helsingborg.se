@@ -65,6 +65,7 @@ wp-content/themes/helsingborg/node_modules
 ######################
 .DS_Store
 .DS_Store?
+.dccache
 ._*
 .Spotlight-V100
 .Trashes
